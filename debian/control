@@ -2,7 +2,7 @@ Source: piqi
 Section: devel
 Priority: optional
 Maintainer: Motiejus Jakštys <desired.mta@gmail.com>
-Build-Depends: debhelper (>= 8.0.0), camlp4-extra, ocaml-findlib,
+Build-Depends: debhelper (>= 8.0.0), camlp4-extra (>= 3.12), ocaml-findlib,
     libprotoc-dev, protobuf-compiler, pandoc
 Standards-Version: 3.9.3
 Homepage: http://piqi.org
