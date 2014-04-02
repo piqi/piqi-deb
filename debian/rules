@@ -16,7 +16,7 @@ override_dh_auto_configure:
 
 override_dh_auto_build:
 	$(MAKE) deps
-	$(MAKE) -C doc
+	$(MAKE) doc
 	dh_auto_build
 
 override_dh_auto_test:
